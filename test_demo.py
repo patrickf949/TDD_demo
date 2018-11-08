@@ -14,7 +14,7 @@ class TestOrder(unittest.TestCase):
     
     def test_id_exists(self):
         self.assertFalse(verify.check_order_status_pending(20))
-        self.assertTrue(verify.check_order_status_pending(2))
+        self.assertTrue(verify.check_order_status_pending(8))
     
     def test_orders_in_list(self):
         self.assertTrue(len(verify.pending)>0)
