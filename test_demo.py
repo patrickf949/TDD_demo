@@ -18,6 +18,7 @@ class TestOrder(unittest.TestCase):
     
     def test_orders_in_list(self):
         self.assertTrue(len(verify.pending)>0)
+        
         self.assertFalse(len(verify.pending)==0)
     
     def test_add_new_order(self):
